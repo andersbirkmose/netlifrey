@@ -61,12 +61,22 @@
         <div id="nav">
           <h1><a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a></h1>
           {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-          {%- for entry in collections.all | eleventyNavigation %}
-            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-          {%- endfor %}
+          {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
+          listClass: "nav_top",                
+          listItemClass: "nav_item",            
+          listItemHasChildrenClass: "nav_top_children", 
+          activeListItemClass: "nav_active",      
+          anchorClass: "nav_anchor",              
+          activeAnchorClass: "nav_current_anchor",
+          activeKey: eleventyNavigation.key,
+          showExcerpt: false
+      }) | safe }}
         </div>
         <div id="reading-progress" aria-hidden="true"></div>
       </nav>
+      {% if image %}
+        <img src="{{ image | absoluteUrl(metadata.url) }}" />
+      {% endif %}
       <h1>{{ title }}</h1>
       {% block extraArticleHeader %}{% endblock %}
       <dialog id="message"></dialog>

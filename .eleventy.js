@@ -192,6 +192,17 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
+  // Return the smallest number argument
+  eleventyConfig.addFilter("min", (...numbers) => {
+    return Math.min.apply(null, numbers);
+  });
+
+  eleventyConfig.addFilter("filterTagList", tags => {
+    // should match the list in tags.njk
+    return (tags || []).filter(tag => ["all", "nav", "post", "posts", "player", "players"].indexOf(tag) === -1);
+  })
+
+
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {

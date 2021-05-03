@@ -1,0 +1,11 @@
+<ol class="playerlist" style="counter-reset: start-from {{ (playerlistCounter or playerlist.length) + 1 }}">
+{% for player in playerlist %}
+  <li class="playerlist-item{% if player.url == url %} playerlist-item-active{% endif %}">
+    <a href="{{ player.url | url }}" class="playerlist-link">{% if player.data.title %}{{ player.data.title }}{% else %}<code>{{ player.url }}</code>{% endif %}</a>
+    {% for tag in player.data.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="player-tag">{{ tag }}</a>
+    {% endfor %}
+  </li>
+{% endfor %}
+</ol>
