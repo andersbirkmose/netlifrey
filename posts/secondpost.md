@@ -17,16 +17,3 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
 
 Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
 
-# Test SVG
-
-![Test Share SVG](/img/share.svg)
-
-# Test Relative Local Image
-
-![Local jpg](/img/doener.jpg)
-
-
-
-# Test Relative Local Image
-
-![Dynamic Web Conference 2018](/img/dynamicweb.jpg)
