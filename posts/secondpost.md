@@ -7,6 +7,19 @@ tags:
 layout: layouts/post.njk
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+# Test SVG
+
+![Test Share SVG](/img/share.svg)
+
+# Test Relative Local Image
+
+![Local jpg](/img/doener.jpg)
+
+
+
+# Test Relative Local Image
+
+![Dynamic Web Conference 2018](/img/dynamicweb.jpg)
 
 ## Section Header
 
