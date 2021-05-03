@@ -13,13 +13,13 @@ Leverage agile frameworks to provide a robust synopsis for high level overviews.
 
 # Test Relative Local Image
 
-![Local jpg](/img/doener.jpg)
+![Local jpg](https://cdn.morguefile.com/imageData/public/files/n/Natureworks/02/p/e114b02ed3d98eafb52ff034ee27c646.jpg)
 
 
 
 # Test Relative Local Image
 
-![Dynamic Web Conference 2018](/img/dynamicweb.jpg)
+![Dynamic Web Conference 2018](https://cdn.morguefile.com/imageData/public/files/n/Natureworks/02/p/789e466fb93432ccef6e2bb4e8acdf12.jpg)
 
 ## Section Header
 
