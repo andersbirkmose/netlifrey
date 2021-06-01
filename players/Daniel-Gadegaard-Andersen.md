@@ -14,6 +14,9 @@ Født: 31-05-2001
 Højde: 191 cm
 Vægt: 80 kg
 
+dette er en test
+
+
 ``` text/2-3
 // this is a command
 function myCommand() {
