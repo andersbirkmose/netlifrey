@@ -1064,7 +1064,7 @@ header nav {
   font-weight: 200;
   text-align: right;
 }
-header nav h1 {
+header nav .logo {
   float: left;
   font-size: inherit;
   line-height: inherit;
