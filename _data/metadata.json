@@ -1,5 +1,6 @@
 {
   "title": "Netlifrey",
+  "logo": "/img/frey.png",
   "url": "https://frey.netlity.com",
   "domain": "frey.netlify.com",
   "description": "Test af statisk genereret indhold",

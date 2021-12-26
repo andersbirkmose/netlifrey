@@ -59,7 +59,9 @@
     <header>
       <nav>
         <div id="nav">
-          <h1><a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a></h1>
+          <h1><a href="{{ '/' | url }}" title="Homepage">
+            <img src="{{ metadata.logo | absoluteUrl(metadata.logo) }}" height="90" alt="{{ metadata.title }}" /> 
+          </a></h1>
           {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
           {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
           listClass: "nav_top",                

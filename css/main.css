@@ -1,7 +1,9 @@
 /* Color customization */
 :root {
-  --primary: #f9c412;
-  --primary-dark: #e7bf60;
+  --primary: #021c70;
+  --primary-dark: #02073f;
+  --background: rgb(140,140,140);
+  --footer-background: rgb(100,100,100);
 }
 
 .test-dead-code-elimination-sentinel {
@@ -1007,7 +1009,7 @@ video {
 }
 body {
   font-family: var(--font-family);
-  background: #181818;
+  background: var(--background);
   color: #eee;
 }
 section {
@@ -1095,7 +1097,7 @@ main {
   border-top: 0.5px solid #ccc;
 }
 footer {
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--footer-background);
   color: #fff;
   padding: 3em;
   text-align: center;
@@ -1292,7 +1294,8 @@ a {
 }
 
 ul.nav_top {
-  background: darkorange;
+  background: var(--primary);
+  color: #ffffff;
   list-style: none;
   margin: 0;
   margin-right: 5rem;
@@ -1301,7 +1304,7 @@ ul.nav_top {
 
 li.nav_item {
   color: #fff;
-  background: darkorange;
+  background: var(--primary-dark);
   display: block;
   float: left;
   padding: 1rem;
@@ -1316,7 +1319,7 @@ li.nav_item a {
 
 li.nav_item:hover,
 li.nav_item:focus-within {
-  background: red;
+  background: var(--primary);
   cursor: pointer;
 }
 
@@ -1326,7 +1329,7 @@ li.nav_item:focus-within a {
 
 
 ul.nav_top li ul {
-  background: orange;
+  background: var(--primary);
   visibility: hidden;
   opacity: 0;
   min-width: 15rem;

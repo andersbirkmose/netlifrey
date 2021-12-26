@@ -2,7 +2,9 @@
 title: Nicolai Poulsen
 description: midtbane
 date: 2018-07-04
-tags: midtbane
+tags: 
+- midtbane
+- mand
 layout: layouts/player.njk
 ---
 #6

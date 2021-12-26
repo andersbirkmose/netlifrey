@@ -1,14 +1,14 @@
 ---
 layout: layouts/post.njk
+title: Mænd
+templateClass: tmpl-post
 eleventyNavigation:
-  key: 3F Superligaen
+  key: Mænd
   parent: Hold
   order: 1
 
 ---
 
-<h1>Spillere </h1>
-
-{% set playerlist = collections.players %}
+{% set playerlist = collections.mand %}
 {% include "playerlist.njk" %}
 

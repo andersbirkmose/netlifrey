@@ -3,7 +3,8 @@ title: Daniel Gadegaard Andersen
 description: Målmand
 date: 2018-05-01
 tags:
-  Målmand
+- Målmand 
+- mand
 layout: layouts/player.njk
 ---
 #36

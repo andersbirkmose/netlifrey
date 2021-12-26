@@ -3,7 +3,8 @@ title: Patrick Mortensen
 description: Angriber
 date: 2018-08-24
 tags:
-  angriber
+- angriber
+- mand
 layout: layouts/post.njk
 ---
 #9

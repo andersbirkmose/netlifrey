@@ -3,9 +3,10 @@ layout: layouts/post.njk
 title: Kvinder
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Gjensidige Kvindeligaen
+  key: Kvinder
   parent: Hold
   order: 2
 ---
 
-Gjensidige Kvindeligaen
+{% set playerlist = collections.kvinde %}
+{% include "playerlist.njk" %}

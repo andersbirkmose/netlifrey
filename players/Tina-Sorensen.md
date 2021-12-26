@@ -1,10 +1,10 @@
 ---
-title: Niklas Backman
+title: Tina Sørensen
 description: Forsvar
 date: 2018-09-30
 tags: 
+- kvinde
 - forsvar
-- mand
 layout: layouts/player.njk
 ---
 #3
