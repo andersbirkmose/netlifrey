@@ -22,13 +22,13 @@ Den udvikling som vi har set i især i USA hvor Alexa-produkterne er en stor suc
 
 Vi kan også se at de store teknologivirksomheder ikke længere har Europa som deres førsteprioritet. Fokus er stadig på det amerikanske hjemmemarked, men derefter er det Kina som er det store marked alle vil være store på.
  
-##Hvem lytter med når den digitale assistent venter på kommandoer?
+## Hvem lytter med når den digitale assistent venter på kommandoer?
 
 Teknologien bag de stemmestyrede assistenter er, at en eller flere mikrofoner lytter efter et tegn til at assistenten skal gøre noget, fx at brugeren siger "Hey Google....". Herefter vil assistenten forsøge at forstå sætningen og sende den til oversættelse hos Googles cloud. Google cloud sender et passende svar tilbage. 
 
 Men assistenten skal lytte med hele tinden for at den kan være klar når brugeren ønsker hjælp, og der er derfor en stigende bekymring for om man bliver overvåget i sit eget hjem, når man har installeret en digital assistent. Denne bekymring er mere udbredt i Europa og især i de nordiske lande, end den har været i USA.
  
-##Konklusion
+## Konklusion
 
 Digitale assistenter kommer ikke til at rulle ind over Danmark som en tsunami. Jeg tror markedet vil stige lige så stille, men vi vil ikke se en revolution her.
 
