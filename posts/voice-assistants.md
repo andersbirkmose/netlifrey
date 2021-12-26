@@ -5,7 +5,7 @@ date: 2019-01-08
 tags:
 - stemmestyring
 layout: layouts/post.njk
-image: /img/doener.jpg
+image: /img/voice.png
 
 ---
 
