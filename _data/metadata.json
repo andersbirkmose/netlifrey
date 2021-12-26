@@ -1,21 +1,21 @@
 {
   "title": "Netlifrey",
   "logo": "/img/frey.png",
-  "url": "https://frey.netlify.com",
-  "domain": "frey.netlify.com",
+  "url": "https://frey.birkmose.com",
+  "domain": "frey.birkmose.com",
   "description": "Test af statisk genereret indhold",
-  "genre": "Insert a schema.org genre",
+  "genre": "http://vocab.getty.edu/aat/300265722",
   "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
   "sendWebVitals": false,
   "feed": {
     "subtitle": "Netlifrey",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://frey.netlify.com"
+    "id": "https://frey.birkmose.com"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://frey.netlify.com/feed/feed.json"
+    "url": "https://frey.birkmose.com/feed/feed.json"
   },
   "author": {
     "name": "Anders Frey Birkmose",

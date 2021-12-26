@@ -2,8 +2,8 @@
 :root {
   --primary: #021c70;
   --primary-dark: #02073f;
-  --background: rgb(140,140,140);
-  --footer-background: rgb(100,100,100);
+  --background: rgb(255,255,255);
+  --footer-background: rgb(200,200,200);
 }
 
 .test-dead-code-elimination-sentinel {
@@ -1010,7 +1010,7 @@ video {
 body {
   font-family: var(--font-family);
   background: var(--background);
-  color: #eee;
+  color: #333;
 }
 section {
   margin-left: auto;
@@ -1060,7 +1060,7 @@ header nav {
   left: 0;
   width: 100vw;
   padding: 0.375em 1.5em;
-  background: hsla(0, 0%, 100%, 0.9);
+  background: rgba(200,200,200,0.9);
   font-weight: 200;
   text-align: right;
 }
