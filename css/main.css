@@ -1083,7 +1083,7 @@ header nav a:first-of-type {
   margin-left: auto;
 }
 header nav a:last-of-type {
-  margin-right: 1.5em;
+   margin-right: 0.2em; 
 }
 header nav label {
   color: #000;
@@ -1299,16 +1299,14 @@ ul.nav_top {
   color: var(--primary-dark);
   list-style: none;
   margin: 0;
-  margin-right: 5rem;
+  margin-right: 1rem;
   float: right;
 }
 
 li.nav_item {
-  
-  /* background: var(--primary-dark); */
   display: block;
   float: left;
-  padding: 1rem;
+  padding: 1rem 0.5rem 1.3rem;
   position: relative;
   text-decoration: none;
   transition-duration: 0.5s;
