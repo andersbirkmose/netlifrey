@@ -103,6 +103,7 @@ header aside {
   z-index: 1;
   background-color: var(--primary);
   width: 100vw;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -1059,7 +1060,7 @@ header nav {
   top: 0;
   left: 0;
   width: 100vw;
-  padding: 0.375em 1.5em;
+  padding: 0 1.5em;
   background: rgba(200,200,200,0.9);
   font-weight: 200;
   text-align: right;
@@ -1068,7 +1069,7 @@ header nav .logo {
   float: left;
   font-size: inherit;
   line-height: inherit;
-  margin: 0;
+  margin-top: 15px;
   text-align: left;
 }
 header nav a {
@@ -1294,8 +1295,8 @@ a {
 }
 
 ul.nav_top {
-  background: var(--primary);
-  color: #ffffff;
+  /*background: var(--primary);*/
+  color: var(--primary-dark);
   list-style: none;
   margin: 0;
   margin-right: 5rem;
@@ -1303,8 +1304,8 @@ ul.nav_top {
 }
 
 li.nav_item {
-  color: #fff;
-  background: var(--primary-dark);
+  
+  /* background: var(--primary-dark); */
   display: block;
   float: left;
   padding: 1rem;
@@ -1314,17 +1315,28 @@ li.nav_item {
 }
 
 li.nav_item a {
-  color: #fff;
+  color: var(--primary-dark);
 }
 
 li.nav_item:hover,
 li.nav_item:focus-within {
   background: var(--primary);
   cursor: pointer;
+  color: #fff;
+}
+
+li.nav_item:hover > a {
+  color: #fff;
+}
+
+li.nav_item a:hover {
+  color: #fff;
+  outline: none;
 }
 
 li.nav_item:focus-within a {
   outline: none;
+  color: #fff;
 }
 
 
@@ -1353,4 +1365,8 @@ ul.nav_top li ul li {
   clear: both;
   width: 100%;
   text-align: left;
+}
+
+ul.nav_top li ul a {
+  color: #fff;
 }
